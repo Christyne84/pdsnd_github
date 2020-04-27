@@ -52,5 +52,5 @@ The code provides the following information:
 bikeshare.py - contains the Python code
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit goes out to Udacity!
 
