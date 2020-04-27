@@ -322,10 +322,10 @@ def main():
         
         # if there is no data returned after filtering by month of the year and/or by day of the week
         if len(df.index) == 0:
-            print('\nYour filtering conditions (city: ' + city + ', month: ' + month + ', day: ' + day + ') returned no data.')
+            print('\nYour filtering conditions (city: {}, month: {}, day: {}) returned no data.'.format(city, month, day))
         # if only one row returned after filtering by month of the year and/or by day of the week
         elif len(df.index) == 1:
-            print('\nYour filtering conditions (city: ' + city + ', month: ' + month + ', day: ' + day + ') returned only one entry:\n')
+            print('\nYour filtering conditions (city: {}, month: {}, day: {}) returned only one entry:\n'.format(city, month, day))
             print(df)
             
         # if more than two rows after filtering by month of the year and/or by day of the week
